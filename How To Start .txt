@@ -1,0 +1,3 @@
+One Should Have to open index.php in his localhost server along with adding the database file into his phpadmin.
+Or 
+One can simply visit https://kysters.000webhostapp.com/index.php , as i have uploaded my website here.

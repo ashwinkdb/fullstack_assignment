@@ -1,0 +1,105 @@
+*{
+margin: 0%;
+
+}
+.btn1 {font-family: monospace;
+  border: none;
+  color: white;
+  padding: 14px 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.bod
+{
+background: url("https://marketingland.com/wp-content/ml-loads/2017/04/ss-island-tropical-vacation.jpg" );
+background-size: 100%;
+
+}
+.tcxt{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.btn{
+  background-color:  white;/* Green */
+  border: none;
+  color: #4CAF50;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+width:100px;height:40px;
+}
+.btn:hover{border: 2px solid green;
+border-radius: 4px;
+
+}
+
+
+@keyframes slider {
+  0% {
+    left:0%;
+     }
+  5% {
+    left:0%;
+    }
+  20% {
+    left:-100%;
+     }
+  30% {
+    left:-200%;
+      }
+  40% {
+    left:-300%;
+     }
+  50% {
+       left:-400%;
+       }
+  60% {
+       left:0%;
+        }
+  69% {
+       left:-100%;
+         }
+  78% {
+    left:-200%;
+        }
+87% {
+  left:-300%;
+}
+    96% {
+     left:-400%;
+         }
+100% {
+  left:0%;
+}
+
+
+  }
+
+
+.slider{
+overflow: hidden;
+
+}
+
+.slider figure img{
+width:20%;
+float: left;
+
+}
+
+.slider figure{
+position: relative;
+width: 500%;
+margin: 0;
+left:0%;
+animation: 20s slider infinite;
+
+}
